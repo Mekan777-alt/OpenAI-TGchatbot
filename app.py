@@ -1,6 +1,7 @@
 from config import dp, db
 import logging
 from aiogram import executor
+import hendlers
 
 
 async def on_startup(dp):

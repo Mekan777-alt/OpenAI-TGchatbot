@@ -17,7 +17,8 @@ class Database(object):
             'username TEXT,'
             'first_name TEXT,'
             'last_name TEXT,'
-            'token bigint)')
+            'token bigint, '
+            'status text)')
 
     def query(self, arg, values=None):
         if values is None:
